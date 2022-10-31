@@ -1,0 +1,75 @@
+body {
+    background-color: #E4E4E4;
+    background-image: url("https://blog.duolingo.com/content/images/2020/06/01-Flowers-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Lobster', cursive;
+    font-size: 14px;
+    text-align: center;
+}
+
+h1 {
+    color: #F34646;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-shadow: 0 1px 1px #575757;
+    font-size: 39px
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    width: 180px;
+    margin: 10px 5px 5px;
+    border: 1.5px solid #575757;
+    border-radius: 5px;
+    text-shadow: 1.2px 1.2px .3px #575757;
+}
+
+#container {
+    width: 480px;
+    height: 320px; 
+    margin: 70px auto;
+    background-color: hsla(0, 0%, 89%, .6);
+    box-shadow: -0.5px -0.5px 50px hsla(0, 0%, 89%, .5); 
+    border-radius: 20px;
+}
+
+#increment-btn {
+    background: #E6A000;
+}
+
+#save-btn {
+    background: #72B300;
+}
+
+#increment-btn:hover {
+    color: red;
+    background: hsla(0, 0%, 89%,.8);
+    font-size: 20px;
+}
+
+#save-btn:hover {
+    color: #00AE50;
+    background-color: #FE9FD9;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
